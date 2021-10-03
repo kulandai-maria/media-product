@@ -1,0 +1,831 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/img/favicon.ico" />
+    <title>Interview Product Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/mCustomScrollbar.min.js"></script>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <div class="nav">
+      <div class="custom-container">
+          <input type="checkbox" id="nav-check">
+          <div class="nav-header">
+            <div class="nav-title t-uppercase">
+              Sitename
+            </div>
+          </div>
+          <div class="nav-btn">
+            <label for="nav-check">
+              <span></span>
+              <span></span>
+              <span></span>
+            </label>
+          </div> 
+          <div class="sidebar-backdrop"></div>
+          <div class="nav-links">
+            <a href="javascript:void(0)">Feature Phones</a>
+            <a href="javascript:void(0)">Accessories</a>
+            <a href="javascript:void(0)">Wearable Tech</a>
+            <a href="javascript:void(0)">Popular Brands</a>
+            <a href="javascript:void(0)">Resources</a>
+            <a href="javascript:void(0)" class="search-btn"><i class="fa fa-search"></i></a>
+          </div>
+      </div>
+  </div>
+  <div class="app-wrapper">
+    <div class="custom-container">
+      <!-- breadcrumb -->
+      <ul class="breadcrumb"><li class="active">Home</li><li>Feature Phones</li><li>Samsung Galaxy S8+</li></ul>
+      <section class="banner-section card">
+        <div class="card-wrap">
+          <div class="card-left">
+            <img src="./assets/imgs/s8.jpg" alt="Samsung" class="card-img">
+            <input class="styled-checkbox" id="styled-checkbox-1" type="checkbox" value="value1">
+            <label for="styled-checkbox-1"><span>Add to Compare</span></label>
+          </div>
+          <div class="card-right">
+            <div class="p-details">
+              <h1>Samsung Galaxy S8+</h1>
+              <div class="p-rating">
+                <div class="rating-icon">
+                    <img src="./assets/imgs/speedometer.png" alt="speedometer">                
+                </div>
+                <div class="rating-wrap">
+                  <div class="rating-c1">
+                    <!-- <div class="r-info"><i class="fa fa-info-circle"></i></div> -->
+                    <div class="r-title">Rating</div>
+                  </div>
+                 <div class="rating-c2">
+                   <div class="r-count">81</div>
+                   <div class="r-feedback">Excellent</div>
+                 </div>
+                </div>
+              </div>
+            </div>
+            <div class="p2-details">
+              <div class="star-rating">
+                4.5 <i class="fa fa-star"></i>
+              </div>
+              <div class="android-v">
+                <span>                Android 7.1 Nougat
+                </span>
+              </div>
+            </div>
+            <div class="p3-details">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="p4-details">
+              <div class="amount">$199.99</div>
+              <button class="btn btn-primary">SHOP NOW</button>
+            </div>
+            <div class="p5-details">
+              <ul>
+                <li>
+                  <i class="pi camera"></i>
+                  <div class="info">16 MP</div>
+                  <div class="feedback">Good</div>
+                </li>
+                <li>
+                  <i class="pi processor"></i>
+                  <div class="info">3GB RAM</div>
+                  <div class="feedback">Average</div>
+                </li>
+                <li>
+                  <i class="pi smartphone"></i>
+                <div class="info">5.5 inch</div>
+                <div class="feedback">Bad</div>
+                </li>
+                <li>
+                  <i class="pi battery"></i>
+                  <div class="info">500 MAH</div>
+                  <div class="feedback">Excellent</div>
+                </li>
+              </ul>
+            </div>
+            <hr>
+            <div class="p6-details">
+              <ul>
+                <li>
+                    <img src="./assets/imgs/att.png" class="c-logo" alt="AT&T">
+                    <div class="c-value">$ 29.99 for 500 minutes</div>
+                </li>
+                <li>
+                    <img src="./assets/imgs/sprint.png" class="c-logo" alt="Sprint">
+                    <div class="c-value">$ 29.99 for 500 minutes</div>
+                </li>
+                <li>
+                  <img src="./assets/imgs/verizon.jpg" class="c-logo c-verizon" alt="Verizon">
+                  <div class="c-value">$ 29.99 for 500 minutes</div>
+              </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+         
+        <div class="card-tab">
+          <ul class="tab-wrap">
+            <li class="active">
+              <i class="pi camera"></i>
+              <div class="specification-info">Camera</div>
+            </li>
+            <li>
+              <i class="pi smartphone"></i>
+              <div class="specification-info">Display</div>
+            </li>
+            <li>
+              <i class="pi battery"></i>
+              <div class="specification-info">Battery</div>
+            </li>
+            <li>
+              <i class="pi processor"></i>
+              <div class="specification-info">Performance</div>
+            </li>
+            <li>
+              <i class="pi storage"></i>
+              <div class="specification-info">Storage</div>
+            </li>
+            <li>
+              <i class="pi accessibility"></i>
+              <div class="specification-info">Usability</div>
+            </li>
+            <li>
+              <i class="pi connectivity"></i>
+              <div class="specification-info">Connectivity</div>
+            </li>
+            <li>
+              <i class="pi review"></i>
+              <div class="specification-info">Reviews</div>
+            </li>
+            <li>
+              <i class="pi compare"></i>
+              <div class="specification-info">Compare</div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section2" >
+        <div class="t-row">
+          <div class="t-col t-col1">
+            <div class="card">
+              <table width="100%">
+                <caption><i class="pi camera"></i>Camera</caption>
+                <tr>
+                  <td width="30%"><strong>Front Camera</strong></td>
+                  <td width="70%">8 megapixels</td>
+                </tr>
+                <tr>
+                  <td width="30%"><strong>Recording Resolution</strong></td>
+                  <td width="70%">1920 X 1080</td>
+                </tr>
+                <tr>
+                  <td width="30%"><strong>Rear Camera</strong></td>
+                  <td width="70%">13 megapixels</td>
+                </tr>
+                <tr>
+                  <td width="30%"><strong>Integrated Camera</strong></td>
+                  <td width="70%">Yes - Front and Back</td>
+                </tr>
+              </table>
+              <table width="100%">
+                <caption><i class="pi smartphone"></i>Display</caption>
+                <tr>
+                  <td width="30%"><strong>Touch Screen</strong></td>
+                  <td width="70%">Yes</td>
+                </tr>
+                <tr>
+                  <td width="30%"><strong>Screen Size</strong></td>
+                  <td width="70%">5.5 inches</td>
+                </tr>
+                <tr>
+                  <td width="30%"><strong>Screen Resolution</strong></td>
+                  <td width="70%">1920 X 1080</td>
+                </tr>
+                <tr>
+                  <td width="30%"><strong>Integrated Camera</strong></td>
+                  <td width="70%">Yes - Front and Back</td>
+                </tr>
+              </table>
+              <table width="100%">
+                <caption><i class="pi battery"></i>Battery</caption>
+                <tr>
+                  <td width="30%"><strong>Charging Interface(S)</strong></td>
+                  <td width="70%">Micro USB</td>
+                </tr>
+                <tr>
+                  <td width="30%"><strong>Wireless Charging</strong></td>
+                  <td width="70%">No</td>
+                </tr>
+                <tr>
+                  <td width="30%"><strong>Battery Capacity</strong></td>
+                  <td width="70%">3000 miiliampere hours</td>
+                </tr>
+                <tr>
+                  <td width="30%"><strong>Fast Charging</strong></td>
+                  <td width="70%">TurboPower</td>
+                </tr>
+              </table>
+              <table width="100%">
+                <caption><i class="pi processor"></i>Performance</caption>
+                <tr>
+                  <td width="30%"><strong>Processor Brand</strong></td>
+                  <td width="70%">Qualcomm Snapdragon</td>
+                </tr>
+                <tr>
+                  <td width="30%"><strong>Processor Speed</strong></td>
+                  <td width="70%">2 gigahertz</td>
+                </tr>
+                <tr>
+                  <td width="30%"><strong>Processor Model</strong></td>
+                  <td width="70%">625</td>
+                </tr>
+                <tr>
+                  <td width="30%"><strong>Memory(RAM)</strong></td>
+                  <td width="70%">3 gigabytes</td>
+                </tr>
+              </table>
+              <table width="100%">
+                <caption><i class="pi storage"></i>Storage</caption>
+                <tr>
+                  <td width="30%"><strong>Expandable Memory Up To</strong></td>
+                  <td width="70%">128 gigabytes</td>
+                </tr>
+                <tr>
+                  <td width="30%"><strong>Internal Memory</strong></td>
+                  <td width="70%">32 gigabytes</td>
+                </tr>
+               
+              </table>
+              <table width="100%">
+                <caption><i class="pi accessibility"></i>Usability</caption>
+                <tr>
+                  <td width="30%"><strong>Headphone Jack</strong></td>
+                  <td width="70%">Yes</td>
+                </tr>
+                <tr>
+                  <td width="30%"><strong>Weight</strong></td>
+                  <td width="70%">5.93 ounces</td>
+                </tr>
+                <tr>
+                  <td width="30%"><strong>Width</strong></td>
+                  <td width="70%">3 inches</td>
+                </tr>
+                <tr>
+                  <td width="30%"><strong>Keyboard Type</strong></td>
+                  <td width="70%">Touch Screen</td>
+                </tr>
+                <tr>
+                  <td width="30%"><strong>Water Resistant</strong></td>
+                  <td width="70%">No</td>
+                </tr>
+              </table>
+              <table width="100%">
+                <caption><i class="pi connectivity"></i>Connectivity</caption>
+                <tr>
+                  <td width="30%"><strong>SIM Card Size</strong></td>
+                  <td width="70%">Nano SIM</td>
+                </tr>
+                <tr>
+                  <td width="30%"><strong>Internet Connectable</strong></td>
+                  <td width="70%">Yes</td>
+                </tr>
+                <tr>
+                  <td width="30%"><strong>Bluetooth Enabled</strong></td>
+                  <td width="70%">Yes</td>
+                </tr>
+                <tr>
+                  <td width="30%"><strong>4G LTE Band</strong></td>
+                  <td width="70%">1, 12, 13, 17, 2, 25, 26, 3, 38, 4, 41, 5, 66, 7, 8</td>
+                </tr>
+                <tr>
+                  <td width="30%"><strong>SIM Card Slots</strong></td>
+                  <td width="70%">Single SIM</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <div class="t-col t-col2">
+            <div class="card t-card-img">
+              <img src="./assets/imgs/shakeout.jpeg" alt="Shake out">
+            </div>
+            <div class="card t-card-list">
+              <div class="card-head">Related Products</div>
+              <div class="media-group">
+                <div class="media">
+                  <div class="media-left">
+                    <img src="./assets/imgs/s6.jpeg" class="media-object" style="width:50px">
+                  </div>
+                  <div class="media-body">
+                    <h4 class="media-heading">Samsung Galaxy A6</h4>
+                    <p class="list-cost">$199.99</p>
+                    <p class="list-star-rate">4.5 <i class="fa fa-star"></i></p>
+                  </div>
+                </div>
+                <div class="media">
+                  <div class="media-left">
+                    <img src="./assets/imgs/s6.jpeg" class="media-object" style="width:50px">
+                  </div>
+                  <div class="media-body">
+                    <h4 class="media-heading">Samsung Galaxy A6</h4>
+                    <p class="list-cost">$199.99</p>
+                    <p class="list-star-rate">4.5 <i class="fa fa-star"></i></p>
+                  </div>
+                </div>
+                <div class="media">
+                  <div class="media-left">
+                    <img src="./assets/imgs/s6.jpeg" class="media-object" style="width:50px">
+                  </div>
+                  <div class="media-body">
+                    <h4 class="media-heading">Samsung Galaxy A6</h4>
+                    <p class="list-cost">$199.99</p>
+                    <p class="list-star-rate">4.5 <i class="fa fa-star"></i></p>
+                  </div>
+                </div>
+                <div class="media">
+                  <div class="media-left">
+                    <img src="./assets/imgs/s6.jpeg" class="media-object" style="width:50px">
+                  </div>
+                  <div class="media-body">
+                    <h4 class="media-heading">Samsung Galaxy A6</h4>
+                    <p class="list-cost">$199.99</p>
+                    <p class="list-star-rate">4.5 <i class="fa fa-star"></i></p>
+                  </div>
+                </div>
+                <div class="media">
+                  <div class="media-left">
+                    <img src="./assets/imgs/s6.jpeg" class="media-object" style="width:50px">
+                  </div>
+                  <div class="media-body">
+                    <h4 class="media-heading">Samsung Galaxy A6</h4>
+                    <p class="list-cost">$199.99</p>
+                    <p class="list-star-rate">4.5 <i class="fa fa-star"></i></p>
+                  </div>
+                </div>
+              </div>
+            
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section3">
+        <div class="card card-full">
+          <div class="card-head">
+            <div class="pull-left">
+              <i class="pi review"></i>
+              <span class="c-title">Reviews</span> 
+            </div>
+            <div class="pull-right c-select">
+              <label for="">Sort By</label>
+              <select name="" id="">
+                <option value="Relevance">Relevance</option>
+                <option value="Good">Good</option>
+
+              </select>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="review-list">
+              <div class="review-data">All Reveiws <span>(40)</span></div>
+              <div class="review-data">Wireless <span>(21)</span></div>
+              <div class="review-data">Data <span>(4)</span></div>
+              <div class="review-data">Bluetooth <span>(3)</span></div>
+              <div class="review-data">Carrier <span>(2)</span></div>
+              <div class="review-data">Email <span>(2)</span></div>
+              <div class="review-data">Internet <span>(2)</span></div>
+              <div class="review-data">LTE <span>(2)</span></div>
+              <div class="review-data">Emaile <span>(2)</span></div>
+              <div class="review-data">Range <span>(12)</span></div>
+              <div class="review-data">Signal <span>(22)</span></div>
+            </div>
+            <div class="review-type-wrap custom-scroll content mCustomScrollbar rounded" data-mcs-theme="rounded-dark">
+              <div class="review-type">
+                <h4><i class="fa fa-plus-circle f-green" aria-hidden="true"></i> Positive Reviews</h4>
+                <ul class="reviews-data">
+                  <li>
+                    <div class="review-rating">4.5 <i class="fa fa-star"></i><span class="review-date">26 Jan,2018</span></div>
+                    <div class="review-comment">The best thing with the phone, I can use it with all carriers in the US.</div>
+                    <div class="review-username">John Doe</div>
+                  </li>
+                  <li>
+                    <div class="review-rating">3.0 <i class="fa fa-star"></i><span class="review-date">26 Jan,2018</span></div>
+                    <div class="review-comment">I did not think it was a worth 70 dollars for the extra 32 GB and 1 GB Ram and I don't miss it so far.</div>
+                    <div class="review-username">John Doe</div>
+                  </li>
+                  <li>
+                    <div class="review-rating">3.0 <i class="fa fa-star"></i><span class="review-date">26 Jan,2018</span></div>
+                    <div class="review-comment">Not a great phone, don't break your bank for daily driver phone.</div>
+                    <div class="review-username">John Doe</div>
+                  </li>
+                </ul>
+              </div>
+              <div class="review-type">
+                <h4><i class="fa fa-minus-circle f-red" aria-hidden="true"></i> Negative Reviews</h4>
+                <ul class="reviews-data">
+                  <li>
+                    <div class="review-rating">1.5 <i class="fa fa-star"></i><span class="review-date">26 Jan,2018</span></div>
+                    <div class="review-comment">This phone display is not that great and camera is not good either.</div>
+                    <div class="review-username">John Doe</div>
+                  </li>
+                  <li>
+                    <div class="review-rating">2.0 <i class="fa fa-star"></i><span class="review-date">26 Jan,2018</span></div>
+                    <div class="review-comment">Long time to get the battery charged full.</div>
+                    <div class="review-username">John Doe</div>
+                  </li>
+                  <li>
+                    <div class="review-rating">1.0 <i class="fa fa-star"></i><span class="review-date">26 Jan,2018</span></div>
+                    <div class="review-comment">The headphones are missing and though listed as a 4130 battery is on really 4100.</div>
+                    <div class="review-username">John Doe</div>
+                  </li>
+                </ul>
+              </div>
+              <div class="review-type">
+                <h4><i class="fa fa-plus-circle f-green" aria-hidden="true"></i> Positive Reviews</h4>
+                <ul class="reviews-data">
+                  <li>
+                    <div class="review-rating">4.5 <i class="fa fa-star"></i><span class="review-date">26 Jan,2018</span></div>
+                    <div class="review-comment">The best thing with the phone, I can use it with all carriers in the US.</div>
+                    <div class="review-username">John Doe</div>
+                  </li>
+                  <li>
+                    <div class="review-rating">3.0 <i class="fa fa-star"></i><span class="review-date">26 Jan,2018</span></div>
+                    <div class="review-comment">I did not think it was a worth 70 dollars for the extra 32 GB and 1 GB Ram and I don't miss it so far.</div>
+                    <div class="review-username">John Doe</div>
+                  </li>
+                  <li>
+                    <div class="review-rating">3.0 <i class="fa fa-star"></i><span class="review-date">26 Jan,2018</span></div>
+                    <div class="review-comment">Not a great phone, don't break your bank for daily driver phone.</div>
+                    <div class="review-username">John Doe</div>
+                  </li>
+                </ul>
+              </div>
+              <div class="review-type">
+                <h4><i class="fa fa-minus-circle f-red" aria-hidden="true"></i> Negative Reviews</h4>
+                <ul class="reviews-data">
+                  <li>
+                    <div class="review-rating">1.5 <i class="fa fa-star"></i><span class="review-date">26 Jan,2018</span></div>
+                    <div class="review-comment">This phone display is not that great and camera is not good either.</div>
+                    <div class="review-username">John Doe</div>
+                  </li>
+                  <li>
+                    <div class="review-rating">2.0 <i class="fa fa-star"></i><span class="review-date">26 Jan,2018</span></div>
+                    <div class="review-comment">Long time to get the battery charged full.</div>
+                    <div class="review-username">John Doe</div>
+                  </li>
+                  <li>
+                    <div class="review-rating">1.0 <i class="fa fa-star"></i><span class="review-date">26 Jan,2018</span></div>
+                    <div class="review-comment">The headphones are missing and though listed as a 4130 battery is on really 4100.</div>
+                    <div class="review-username">John Doe</div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section4" >
+        <div class="card card-full mb-0">
+          <div class="card-head">
+            <div class="pull-left">
+              <i class="pi compare"></i>
+              <span class="c-title">Compare</span>
+            </div>
+          
+          </div>
+          <div class="card-body">
+            <div class="t-row">
+              <div class="t-col1">
+                <table width="100%" class="table-progress">
+                  <tr>
+                    <td width="20%" class="t-right">All Phones</td>
+                    <td width="80%">
+                    <div class="progress-bar-container">
+                      <div class="progress-bar-child progress p1"></div>
+                      <div class="progress-bar-child shrinker timelapse"></div>
+                    </div>
+                  </td>
+                  </tr>
+                  <tr>
+                    <td width="20%" class="t-right">All Andorid Phones</td>
+                    <td width="80%"><div class="progress-bar-container">
+                      <div class="progress-bar-child progress p2"></div>
+                      <div class="progress-bar-child shrinker timelapse"></div>
+                  </div></td>
+                  </tr>
+                  <tr>
+                    <td width="20%" class="t-right">Current</td>
+                    <td width="80%"><div class="progress-bar-container">
+                      <div class="progress-bar-child progress p3"></div>
+                      <div class="progress-bar-child shrinker timelapse"></div>
+                  </div></td>
+                  </tr>
+                  <tr>
+                    <td width="20%">&nbsp;</td>
+                    <td width="80%">
+                      <ul class="timeline-wrap">
+                        <li>
+                          <div class="timeline-count">0</div>
+                        </li>
+                        <li>
+                          <div class="timeline-count">2</div>
+                        </li>
+                        <li>
+                          <div class="timeline-count">4</div>
+                        </li>
+                        <li>
+                          <div class="timeline-count">6</div>
+                        </li>
+                        <li>
+                          <div class="timeline-count">8</div>
+                        </li>
+                        <li>
+                          <div class="timeline-count">10</div>
+                        </li>
+
+                        <li>
+                          <div class="timeline-count">12</div>
+                        </li>
+                        <li>
+                          <div class="timeline-count">14</div>
+                        </li>
+                        <li>
+                          <div class="timeline-count">16</div>
+                        </li>
+                    </ul>
+                    </td></tr>
+                    <tr>
+                      <td width="20%">&nbsp;</td>
+                      <td width="80%" class="t-center compare-title">Camera (Megapixels)</td></tr>
+                </table>
+              </div>
+              <!-- <div class="t-col2">&nbsp;</div> -->
+            </div>
+            <div class="t-row">
+              <div class="t-col1">
+                <table width="100%" class="table-progress">
+                  <tr>
+                    <td width="20%" class="t-right">All Phones</td>
+                    <td width="80%">
+                    <div class="progress-bar-container">
+                      <div class="progress-bar-child progress p1"></div>
+                      <div class="progress-bar-child shrinker timelapse"></div>
+                    </div>
+                  </td>
+                  </tr>
+                  <tr>
+                    <td width="20%" class="t-right">All Andorid Phones</td>
+                    <td width="80%"><div class="progress-bar-container">
+                      <div class="progress-bar-child progress p2"></div>
+                      <div class="progress-bar-child shrinker timelapse"></div>
+                  </div></td>
+                  </tr>
+                  <tr>
+                    <td width="20%" class="t-right">Current</td>
+                    <td width="80%"><div class="progress-bar-container">
+                      <div class="progress-bar-child progress p3"></div>
+                      <div class="progress-bar-child shrinker timelapse"></div>
+                  </div></td>
+                  </tr>
+                  <tr>
+                    <td width="20%">&nbsp;</td>
+                    <td width="80%">
+                      <ul class="timeline-wrap">
+                        <li>
+                          <div class="timeline-count">0</div>
+                        </li>
+                        <li>
+                          <div class="timeline-count">2</div>
+                        </li>
+                        <li>
+                          <div class="timeline-count">4</div>
+                        </li>
+                        <li>
+                          <div class="timeline-count">6</div>
+                        </li>
+                        <li>
+                          <div class="timeline-count">8</div>
+                        </li>
+                        <li>
+                          <div class="timeline-count">10</div>
+                        </li>
+
+                        <li>
+                          <div class="timeline-count">12</div>
+                        </li>
+                        <li>
+                          <div class="timeline-count">14</div>
+                        </li>
+                        <li>
+                          <div class="timeline-count">16</div>
+                        </li>
+                    </ul>
+                    </td></tr>
+                    <tr>
+                      <td width="20%">&nbsp;</td>
+                      <td width="80%" class="t-center compare-title">RAM (GB)</td></tr>
+                </table>
+              </div>
+              <!-- <div class="t-col2">&nbsp;</div> -->
+            </div>
+            <div class="t-row">
+              <div class="t-col1">
+                <table width="100%" class="table-progress">
+                  <tr>
+                    <td width="20%" class="t-right">All Phones</td>
+                    <td width="80%">
+                    <div class="progress-bar-container">
+                      <div class="progress-bar-child progress p1"></div>
+                      <div class="progress-bar-child shrinker timelapse"></div>
+                    </div>
+                  </td>
+                  </tr>
+                  <tr>
+                    <td width="20%" class="t-right">All Andorid Phones</td>
+                    <td width="80%"><div class="progress-bar-container">
+                      <div class="progress-bar-child progress p2"></div>
+                      <div class="progress-bar-child shrinker timelapse"></div>
+                  </div></td>
+                  </tr>
+                  <tr>
+                    <td width="20%" class="t-right">Current</td>
+                    <td width="80%"><div class="progress-bar-container">
+                      <div class="progress-bar-child progress p3"></div>
+                      <div class="progress-bar-child shrinker timelapse"></div>
+                  </div></td>
+                  </tr>
+                  <tr>
+                    <td width="20%">&nbsp;</td>
+                    <td width="80%">
+                      <ul class="timeline-wrap">
+                        <li>
+                          <div class="timeline-count">0</div>
+                        </li>
+                        <li>
+                          <div class="timeline-count">2</div>
+                        </li>
+                        <li>
+                          <div class="timeline-count">4</div>
+                        </li>
+                        <li>
+                          <div class="timeline-count">6</div>
+                        </li>
+                        <li>
+                          <div class="timeline-count">8</div>
+                        </li>
+                        <li>
+                          <div class="timeline-count">10</div>
+                        </li>
+
+                        <li>
+                          <div class="timeline-count">12</div>
+                        </li>
+                        <li>
+                          <div class="timeline-count">14</div>
+                        </li>
+                        <li>
+                          <div class="timeline-count">16</div>
+                        </li>
+                    </ul>
+                    </td></tr>
+                    <tr>
+                      <td width="20%">&nbsp;</td>
+                      <td width="80%" class="t-center compare-title">Display(Inches)</td></tr>
+                </table>
+              </div>
+              <!-- <div class="t-col2">&nbsp;</div> -->
+            </div>
+            <div class="t-row">
+              <div class="t-col1">
+                <table width="100%" class="table-progress">
+                  <tr>
+                    <td width="20%" class="t-right">All Phones</td>
+                    <td width="80%">
+                    <div class="progress-bar-container">
+                      <div class="progress-bar-child progress p1"></div>
+                      <div class="progress-bar-child shrinker timelapse"></div>
+                    </div>
+                  </td>
+                  </tr>
+                  <tr>
+                    <td width="20%" class="t-right">All Andorid Phones</td>
+                    <td width="80%"><div class="progress-bar-container">
+                      <div class="progress-bar-child progress p2"></div>
+                      <div class="progress-bar-child shrinker timelapse"></div>
+                  </div></td>
+                  </tr>
+                  <tr>
+                    <td width="20%" class="t-right">Current</td>
+                    <td width="80%"><div class="progress-bar-container">
+                      <div class="progress-bar-child progress p3"></div>
+                      <div class="progress-bar-child shrinker timelapse"></div>
+                  </div></td>
+                  </tr>
+                  <tr>
+                    <td width="20%">&nbsp;</td>
+                    <td width="80%">
+                      <ul class="timeline-wrap">
+                        <li>
+                          <div class="timeline-count">0</div>
+                        </li>
+                        <li>
+                          <div class="timeline-count">2</div>
+                        </li>
+                        <li>
+                          <div class="timeline-count">4</div>
+                        </li>
+                        <li>
+                          <div class="timeline-count">6</div>
+                        </li>
+                        <li>
+                          <div class="timeline-count">8</div>
+                        </li>
+                        <li>
+                          <div class="timeline-count">10</div>
+                        </li>
+
+                        <li>
+                          <div class="timeline-count">12</div>
+                        </li>
+                        <li>
+                          <div class="timeline-count">14</div>
+                        </li>
+                        <li>
+                          <div class="timeline-count">16</div>
+                        </li>
+                    </ul>
+                    </td></tr>
+                    <tr>
+                      <td width="20%">&nbsp;</td>
+                      <td width="80%" class="t-center compare-title">Battery (MAH)</td></tr>
+                </table>
+              </div>
+              <!-- <div class="t-col2">&nbsp;</div> -->
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+  </div>
+  <footer class="footer-wrap">
+    <div class="custom-container">
+      <div class="f-row">
+        <div class="f-col">
+          <h4>SITENAME</h4>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and</p>
+          <ul>
+            <li><a href="javascript:void(0)"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="javascript:void(0)"><i class="fa fa-instagram"></i></a></li>
+          </ul>
+        </div>
+        <div class="f-col">
+          <h4>Twitter Feeds</h4>
+          <p>Car &#38; Bicycle Repair Theme Design - Home Version 1 @ dribble https://t.co/jp5NmkzRct #dribble #uidesign #uxdesign... https://t.co/UAbC5JFNzh 4w ago</p>
+        </div>
+        <div class="f-col">
+          <h4 >Instagram Feeds</h4>
+          <div class="insta-feed-wrap">
+            <div class="insta-feed-img">
+              <img src="./assets/imgs/sample1.jpeg" alt="Insta Feeds">
+            </div>
+            <div class="insta-feed-img">
+              <img src="./assets/imgs/sample2.jpeg" alt="Insta Feeds">
+            </div>
+            <div class="insta-feed-img">
+              <img src="./assets/imgs/sample3.jpeg" alt="Insta Feeds">
+            </div>
+            <div class="insta-feed-img">
+              <img src="./assets/imgs/sample4.jpeg" alt="Insta Feeds">
+            </div>
+            <div class="insta-feed-img">
+              <img src="./assets/imgs/sample1.jpeg" alt="Insta Feeds">
+            </div>
+            <div class="insta-feed-img">
+              <img src="./assets/imgs/sample2.jpeg" alt="Insta Feeds">
+            </div>
+            <div class="insta-feed-img">
+              <img src="./assets/imgs/sample3.jpeg" alt="Insta Feeds">
+            </div>
+            <div class="insta-feed-img">
+              <img src="./assets/imgs/sample4.jpeg" alt="Insta Feeds">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

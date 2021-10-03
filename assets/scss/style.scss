@@ -1,0 +1,58 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    overflow-x: hidden;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    line-height: 1.42857143;
+}
+select {
+   -o-appearance: none;
+   -ms-appearance: none;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+   background-image: url(../imgs/arrow-down.svg);
+    background-repeat: no-repeat;
+    background-size: 10px;
+    background-position: calc(100% - 10px);
+    padding-right: 25px !important;
+    &:focus , &:focus {
+        outline: 0;
+    }
+}
+// Base 
+@import './base/color';
+@import './base/variable';
+
+//Vendor
+@import './vendor/mCustomSrollbar';
+@import './vendor/product-font';
+
+//Components
+@import './components/layout';
+@import './components/navigation';
+@import './components/breadcrumb';
+@import './components/checkbox';
+@import './components/card';
+@import './components/media';
+@import './components/progress';
+@import './components/timeline';
+@import './components/custom-scrollbar';
+//Modules
+@import './modules/home';
+@import './modules/footer';
+
+
+//Responsive Modules
+@import './modules/res-home';
+
+@import './common';
+

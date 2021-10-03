@@ -1,0 +1,175 @@
+@media screen and (max-width:767px) {
+    .banner-section{
+        &.card {
+            .card-wrap {
+                padding: 40px 15px 30px 15px;
+                display: block;
+            }
+          
+            .card-left {
+                width: 180px;
+                margin: 0 auto;
+            }
+            .card-left ,.card-right {
+                display: block;
+            }
+            .card-right{
+                padding-left: 0;
+                margin-top: 10px;
+            }
+        }
+        .p-details {
+            margin-bottom: 10px;
+            align-items: center;
+            h1 {
+                font-size: 18px;
+            }
+            .p-rating {
+                .rating-icon {
+                    width: 30px;
+                }
+                .rating-wrap{
+                    padding-left: 3px;
+                }
+                .rating-c1 {
+                    .r-title {
+                        font-size: 10px;
+                    }
+                }
+                .rating-c2{
+                    font-size: 10px;
+                }
+            } 
+        }
+        .p2-details {
+            width: 100%;
+            .android-v {
+                vertical-align: middle;
+                padding-left: 10px;
+            }
+        }
+        .p3-details {
+            margin: 15px 0;
+        }
+        .p5-details {
+            ul {
+                margin-right: -5px;
+                li {
+                    margin-right: 5px;
+                    i{
+                        font-size: 24px;
+                    }
+                    .info {
+                        font-size: 16px;
+                    }
+                    .feedback{
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+        .p6-details  {
+            ul {
+                flex-wrap: wrap;
+                margin: -10px -10px 0 0;
+                li {
+                    margin: 10px 10px 0 0;
+                  
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+        .card-tab {
+            display: none;
+            .tab-wrap{
+                flex-wrap: wrap;
+                margin: -5px -5px 0 0;
+                li {
+                    margin: 5px 5px 0 0;
+                    border: 1px solid $secondary;
+                    flex-basis: 100px;
+                
+                }
+            }
+        }
+    }
+
+    .section2{
+        display: block;
+        .t-col  , .t-col2{
+            display: block;
+        }
+        .t-col2 {
+            width: 100%;
+            padding-left: 0;
+            .t-card-img {
+                padding: 15px;
+            }
+            .t-card-list {
+                .media-group {
+                    padding: 15px;
+                }
+            } 
+        }
+        table {
+            caption {
+                padding-left: 15px;
+            }
+            tr {
+                td {
+                    vertical-align: top;
+                    padding-left: 15px;
+                    &:first-child {
+                        width: 50%;
+                    }
+                    &:last-child {
+                        width: 50%;
+                    }
+                }
+            }
+        }
+    }
+    .section4  {
+        .t-row  {
+            margin-bottom: 0;
+            .t-col1 {
+                width: 100%;
+                display: block;
+            }
+            .t-col2 {
+                display: none;
+            }
+        }
+    }
+}
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .banner-section  {
+        &.card {
+            .card-wrap {
+                padding-left: 25px;
+                padding-right: 25px;
+            }
+        }
+        .card-tab {
+            .tab-wrap {
+                li {
+                    padding-left: 5px;
+                    padding-right: 5px;
+                }
+            }
+        } 
+    }
+   
+} 
+@media screen and (min-width:768px) and (max-width:1024px) and (orientation:portrait){
+    .section4 {
+        .t-row {
+            .t-col1 {
+                width: calc(100% - 200px);
+            }
+        }
+    }
+     
+}

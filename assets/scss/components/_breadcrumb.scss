@@ -1,0 +1,24 @@
+.breadcrumb {
+    list-style-type: none;
+    padding-left: 0;
+    padding-bottom: 7px;
+    li {
+        color: rgba($black,0.8); 
+        display: inline-block;  
+        &::before {
+            content: '/';
+        }  
+        &:first-child {
+            &::before {
+                content: none;
+            }
+        }
+        &.active {
+            font-weight: $f-mb;
+            color: $black;
+        }
+    }
+    > li + li:before {
+        padding: 0 5px;
+    }
+}

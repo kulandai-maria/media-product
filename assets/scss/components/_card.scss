@@ -1,0 +1,89 @@
+.card {
+    background-color: $white;
+    box-shadow: 2px 2px 14px 0 rgba(0, 0, 0, 0.08);
+    -moz-box-shadow:   2px 2px 14px 0 rgba(0, 0, 0, 0.08);
+    -webkit-box-shadow: 2px 2px 14px 0 rgba(0, 0, 0, 0.08);
+    margin-bottom: 30px;
+    &.mb-0 {
+        margin-bottom: 0;
+    }
+    .card-head {
+        padding:  15px 20px;
+        font-weight: $f-mb;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+       
+    }
+    &.card-full {
+        .card-head {
+            background-color: $lblue;
+            padding:  8px 15px 8px 35px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 0px;
+            overflow: hidden;
+            letter-spacing: 0.7px;
+            i {
+                font-size: 18px;
+                vertical-align: middle;
+                padding-right: 12px;
+                color: $secondary;
+            }
+            .c-title {
+                font-size: 16px;
+                font-weight: $f-mb;
+            }
+            .c-select {
+                label{
+                    font-weight: $f-sm;
+                }
+                select {
+                    height: 30px;
+                    border-color: rgba(0 ,0, 0,0.2);
+                    background-color: $white;
+                    padding-left: 10px;
+                    padding-right: 15px;
+                }
+            }
+              
+        }
+      
+        .card-body {
+            padding: 20px 35px;
+        }
+    }
+}
+@media screen and (max-width:767px) {
+    .card {
+        .card-head {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        &.card-full {
+            .card-head {
+                padding-left: 15px;
+            }
+            .card-body {
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+        }
+    }
+}
+@media screen and (min-width:768px) and (max-width:1024px) and (orientation:portrait) {
+    .card {
+        .card-head {
+            padding-left: 25px;
+            padding-right: 25px;
+        }
+        &.card-full {
+            .card-head {
+                padding-left: 25px;
+            }
+            .card-body {
+                padding-left: 25px;
+                padding-right: 25px;
+            }
+        }
+    }
+}

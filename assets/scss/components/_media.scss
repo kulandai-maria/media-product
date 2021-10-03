@@ -1,0 +1,8 @@
+.media{
+    display: table;
+    width: 100%;
+    .media-body, .media-left {
+        display: table-cell;
+        vertical-align: top;
+    }
+}

@@ -1,0 +1,11 @@
+.app-wrapper {
+    position: relative;
+    padding: 10px 0 130px 0;
+    z-index: 1;
+    padding-top: 70px;
+}
+@media screen and (max-width:767px) {
+    .app-wrapper {
+        padding-bottom: 70px;
+    }
+}

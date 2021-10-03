@@ -1,0 +1,38 @@
+html,body {
+    color: $black;
+    font-size: 14px;
+}
+a{
+    &:hover , &:focus{
+        text-decoration: none;
+    }
+}
+.t-uppercase{
+    text-transform: uppercase;
+}
+.custom-container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+hr {
+    margin: 30px 0;
+    border-color: #efefef;
+    border-width: 0.5px;
+}
+@media (min-width: 768px) {
+.custom-container {
+    width: 750px;
+}
+}
+@media (min-width: 992px) {
+.custom-container {
+    width: 970px;
+}
+}
+@media (min-width: 1200px) {
+.custom-container {
+    width: 1170px;
+}
+}
