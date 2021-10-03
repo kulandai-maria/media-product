@@ -74,7 +74,9 @@
                 margin: -10px -10px 0 0;
                 li {
                     margin: 10px 10px 0 0;
-                  
+                    .c-logo  {
+                        width: 70px;
+                    }
                     &:last-child {
                         margin-right: 0;
                     }

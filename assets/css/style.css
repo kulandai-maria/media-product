@@ -1833,6 +1833,7 @@ yx-axis
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.1);
   opacity: 0;
+  display: none;
 }
 
 @media screen and (max-width: 767px) {
@@ -1894,6 +1895,7 @@ yx-axis
   }
   .nav #nav-check:checked ~ .sidebar-backdrop {
     opacity: 1;
+    display: block;
   }
   .nav #nav-check:checked ~ .nav-links {
     opacity: 1;
@@ -1941,6 +1943,11 @@ yx-axis
   padding: 0 5px;
 }
 
+@media screen and (max-width: 767px) {
+  .breadcrumb {
+    font-size: 10px;
+  }
+}
 .styled-checkbox {
   position: absolute;
   opacity: 0;
@@ -2753,6 +2760,9 @@ yx-axis
   }
   .banner-section .p6-details ul li {
     margin: 10px 10px 0 0;
+  }
+  .banner-section .p6-details ul li .c-logo {
+    width: 70px;
   }
   .banner-section .p6-details ul li:last-child {
     margin-right: 0;
